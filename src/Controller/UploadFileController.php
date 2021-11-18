@@ -12,7 +12,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class UploadFileController extends AbstractController
 {
     /**
-     * @Route("/upload", name="upload_file")
+     * @Route("upload", name="upload_file")
      */
     public function index(Request $request, ContainerInterface $container): Response
     {
